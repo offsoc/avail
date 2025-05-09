@@ -33,7 +33,7 @@ codec = { package = "parity-scale-codec", version = "3", default-features = fals
 scale-info = { version = "2.5.0", features = ["bit-vec"] }
 hex = { version = "0.4" }
 base58 = { version = "0.2.0" }
-tokio = { version = "1.21.2" }
+tokio = { version = "1.43.1" }
 sp-core = { git = "https://github.com/availproject/polkadot-sdk.git", tag = "polkadot-1.7.1-patch-9", default-features = false }
 bounded-collections = { version = "0.2.0", features = ["serde"] }
 
